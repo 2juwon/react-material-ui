@@ -9,13 +9,13 @@ import { green, orange } from '@material-ui/core/colors';
 
 const theme = createMuiTheme({
   palette: {
+    type: 'dark',
     primary: {
       main: green[500]
     },
     secondary: {
       main: orange[500]
-    },
-    text: { main: 'white' }
+    }
   }
 });
 

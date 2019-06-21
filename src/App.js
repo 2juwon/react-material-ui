@@ -15,7 +15,8 @@ const userStyle = makeStyles(theme => ({
   },
   button: {
     margin: theme.spacing(1),
-    minWidth: 150
+    minWidth: 150,
+    color: 'white'
   },
   main: {
     flexGrow: 1,
